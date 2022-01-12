@@ -21,9 +21,14 @@ h1 {
   margin-bottom: 25px;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 0 auto;
+}
+
 .card {
-  margin-left: 700px;
-  margin-right: 700px;
   margin-bottom: 10px;
   text-align: left;
   vertical-align: middle;
@@ -31,13 +36,11 @@ h1 {
   border-width: thin;
   border-color: rgba(grey);
 }
-
 .topLine {
   background: rgba(236, 236, 236);
   text-align: left;
   vertical-align: middle;
-  padding-bottom: 15px;
-  padding-top: 15px;
+  padding: 20px;
   line-height: 25px;  
 }
 

@@ -32,9 +32,7 @@ h1 {
   margin-bottom: 10px;
   text-align: left;
   vertical-align: middle;
-  border-style: solid;
-  border-width: thin;
-  border-color: rgba(grey);
+  border: grey solid 1px;
 }
 .topLine {
   background: rgba(236, 236, 236);
